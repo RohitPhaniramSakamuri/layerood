@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-24",
+  "kind": "Delivery snapshot, not a retroactive source snapshot at run start",
+  "files_sha256": {
+    "src/layerood/__init__.py": "48b5fefc4d5f946438b50d5c4de2691418198ba974d034e0445dd8c6e78596d1",
+    "src/layerood/artifacts.py": "8d470e95f6b2714b163e75c5ca123fb74137c9dd322fc49f506d2f1284665909",
+    "src/layerood/embeddings.py": "2fa21ea40e6135a81851d3e479de99f057ecd75b44433fe65f899572518d7409",
+    "src/layerood/detector.py": "a7e1b66b9ffb7b4a35ab4235a2de13bf71202a5719f49b332d289b157e85c869",
+    "src/layerood/evaluation.py": "4f3934f70b9e27ea83c2589efc659567cbf7275e69ff5b5e3b21c66147f39d73",
+    "src/layerood/datasets.py": "88a71dee9e65e0457da6a2cca34b9d8b5baf3ab138508d028af60076debe4f79",
+    "src/layerood/pipeline.py": "eddd2d5b6232b61f10edefa068910a40e06c986f70742b7ef1765c1905fde95f",
+    "src/layerood/server.py": "83403b541aeb1aa1d1da393c69670ffe93bcf07be987e5ac824cda551f2aa44b",
+    "src/layerood/cli.py": "1c27940beccfae289bda2b7a68c4de3518e826cf6423a66d0c647a5316f66b48",
+    "src/layerood/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "pyproject.toml": "9b0c89047906ef62f720cac0973bf39f6092f41983250bb0d3e25a9711164717",
+    "uv.lock": "0615a7e0620254034c4d2bca93f47c5b73552d3837c874815f39daf1425e57fa",
+    "artifacts/clinc-mini-heldout-42/metrics.json": "75e955eac4a869df8a55806f4088901520ca86fcb1920b27a996b9836bfc5c44",
+    "artifacts/clinc-mini-heldout-42/detector.npz": "9a4a3c507b5d0881742a5c2ac8f6ddffd11bed5198a8bc91163386e92e120512"
+  },
+  "test_suites_run": false,
+  "ordinary_usage_executed": [
+    "real embedding extraction",
+    "125-text CLINC subset pipeline",
+    "saved-detector prediction"
+  ],
+  "server_status": "Implemented; no persistent server started",
+  "static_review_fixes": [
+    "matched diagonal locality control",
+    "model/tokenizer identity",
+    "evaluation alpha",
+    "artifact shapes",
+    "evaluated OOD intent coverage"
+  ],
+  "external_cost": 0
+}

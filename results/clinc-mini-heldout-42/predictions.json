@@ -1,0 +1,3282 @@
+[
+  {
+    "id": "clinc-test-3057",
+    "token_count": 6,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.6932550410726303,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_density": {
+        "score": 1.5432775318882206,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis": {
+        "score": 57.58714705879669,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis_concat": {
+        "score": 98.49072187033477,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 159.60510334198318,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 2.783973242464639,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 2.8178486183399385,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 1.9459101490553132,
+        "p_id": 0.9615384615384616,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 23.791426749666776,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 32.830240623444915,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 6.094142189776464e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": 5.7345162968008765,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 5.640006895397313,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 3.2777621810814934,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 3.2777621810814934,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3038",
+    "token_count": 9,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.47653102467394326,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0608211697806034,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 18.798381224441947,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 73.0714688789414,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 93.87947787771219,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.5469190801907824,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.5361217005261532,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.302585092994046,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 4.972942860209365,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 24.35715629298046,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 4.769661973701812e-05,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -1.5480638832336204,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.838414770546685,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.3099373051608723,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.5933686498090407,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3039",
+    "token_count": 7,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.5957681052063654,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_density": {
+        "score": 1.297476221915676,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis": {
+        "score": 31.055940032345084,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 64.0179104797279,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 88.35904263966246,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.5895580335033355,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.5970973667354726,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.0794415416798357,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 8.456399964044877,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 21.339303493242625,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.826338398268643e-05,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -0.9709313848787353,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.6332314502258254,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.8339250524369661,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 1.8339250524369661,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3049",
+    "token_count": 9,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.6151582606646494,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_density": {
+        "score": 1.3377487058540392,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis": {
+        "score": 38.94735891477769,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis_concat": {
+        "score": 84.8747570960236,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 153.05388625850782,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 2.6660386668284914,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 2.4668099921395252,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.302585092994046,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 9.91755265177181,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 28.29158569867452,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 5.357296656562188e-05,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -0.5742561695273807,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 5.497458031729982,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 3.0072928808864874,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 2.0807686473871194,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-1379",
+    "token_count": 7,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.46425943484842935,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9743734665373089,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 18.198892749575116,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 50.84160518212725,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 60.65069696578002,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.03273707154611,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.0623420896221387,
+        "p_id": 0.6538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.0794415416798357,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 13.052637564220682,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 16.947201727375752,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 4.70443254216903e-05,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -1.9432590117899267,
+        "p_id": 0.8076923076923077,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 2.36274139088514,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 0.25906660537592496,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": -0.1739222889126873,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-1376",
+    "token_count": 10,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.5061939671860061,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0574625069707628,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 30.10155711371564,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 54.86003132845207,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 89.48146913320845,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.238396764300377,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.1799448333890152,
+        "p_id": 0.5,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.3978952727983707,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 8.964624432694794,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 18.28667710948403,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 4.1874225091453485e-05,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -3.3046321435318866,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.6759577386288678,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 0.7081968971441924,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.26656910785951804,
+        "p_id": 0.5,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-1359",
+    "token_count": 7,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4587651066351994,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9515549073129403,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 21.38636007174643,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 64.31221507085601,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 52.79949431806649,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 0.9269657974295421,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 0.8922284029346884,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.0794415416798357,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 14.111338555760163,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 21.437405023618666,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.7524424804724385e-05,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 0.9577496772910408,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 1.8964777849433205,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 0.010043967516309727,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": -0.48412597592744083,
+        "p_id": 0.8076923076923077,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-1361",
+    "token_count": 12,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4497875622403652,
+        "p_id": 0.5,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9446021467669871,
+        "p_id": 0.6538461538461539,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 19.925776814042294,
+        "p_id": 0.5,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 50.994918263592304,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 91.7824665602259,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.5258213799024776,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.4691561009248573,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.5649493574615367,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 4.490653032570306,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 16.998306087864098,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 2.4414163777800333e-05,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 0.9211094105377917,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.7619147082208997,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.27117359426796,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.49407941945761724,
+        "p_id": 0.5,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-1425",
+    "token_count": 15,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4372160928922645,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9546882638489829,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 13.558055435514206,
+        "p_id": 0.7692307692307693,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 46.5910927605871,
+        "p_id": 0.7692307692307693,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 99.74995705665087,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 2.087624799102447,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 2.022544623534532,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.772588722239781,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 12.90395939378105,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 15.530364253529036,
+        "p_id": 0.7692307692307693,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.631625325338563e-05,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 3.1712502916449488,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 4.043903927710513,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 2.2070996312456104,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 1.2444096124758155,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-1432",
+    "token_count": 12,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4586965193216222,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9865233898313334,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 18.075100007182936,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 54.76565347326255,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 88.40443928197975,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.3289897549824898,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.4776395850021964,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.5649493574615367,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 4.59410261796245,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 18.255217824420843,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.473753815892808e-05,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 2.495612794925375,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.634969907756102,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 0.8930872111409913,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.5068057545963477,
+        "p_id": 0.5,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-1422",
+    "token_count": 10,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.456842001137917,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0060725316334544,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 14.174642006257235,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 43.49354462677586,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 69.47915383139568,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 0.9890488447935288,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.1798133045366601,
+        "p_id": 0.5,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.3978952727983707,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 1.4904612632435157,
+        "p_id": 0.9615384615384616,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 14.497848208925285,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.539500187551535e-05,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -0.2164744460262824,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 2.8208311181360197,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 0.1578170981490304,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.03162350121494636,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-1421",
+    "token_count": 11,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.48972401988955877,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0754112183907085,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 26.17411729759792,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 71.3739428319577,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 111.5785841547168,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.7278869302995299,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.7129838547380614,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.4849066497880004,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 3.5616688113340658,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 23.79131427731923,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.897571241730755e-05,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 2.794756382534196,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 4.423874703891819,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.6298237086435194,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.8434991703208856,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-465",
+    "token_count": 13,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.42311955475854185,
+        "p_id": 0.7692307692307693,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.930360989437194,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 22.61727976619541,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 66.5105548221367,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 80.18197594535718,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.417883815508223,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.5933168380588576,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.639057329615259,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 6.673792063480871,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 22.170184940712236,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 2.881890183211091e-05,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 2.458848079887641,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.3047423362668735,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.0676478094754107,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.676117112155239,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-466",
+    "token_count": 8,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4602631995902085,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.00045250465772,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 19.649196504727843,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 51.672469065730375,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 92.88522780422095,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.7910981929110616,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.7860152333366603,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.1972245773362196,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 3.098129003369591,
+        "p_id": 0.8846153846153846,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 17.224156355243448,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 2.688372184914378e-05,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -1.5855176328795402,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.8023570721403153,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.7365778174429123,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.9420599297827424,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-461",
+    "token_count": 11,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4254809211898266,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9039936353142789,
+        "p_id": 0.8461538461538461,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 13.724949990475535,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 43.33691657250757,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 55.846762771985865,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 0.9478169045668686,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 0.924493936246562,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.4849066497880004,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 2.307193785734995,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 14.445638857502525,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 1.388262381043431e-05,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -1.1903538333112031,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 2.0850609741111663,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 0.06019920899066943,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": -0.4306060459767053,
+        "p_id": 0.8076923076923077,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-469",
+    "token_count": 12,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.43922835974046026,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9683362550486737,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 40.63451396304934,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis_concat": {
+        "score": 75.89534809256261,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 149.89282257364425,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 2.0835980564177765,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 2.240443704860238,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.5649493574615367,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 15.762136371311566,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 25.298449364187515,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.024253497388175e-05,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 5.958935703363586,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 5.426493065529847,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 2.201018098127517,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 1.5026961522784168,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-979",
+    "token_count": 6,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4542414279299009,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9789384484248812,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 29.441721873904854,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 54.148110558663,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 117.24042282808381,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.8839275224250265,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 2.032604119276664,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 1.9459101490553132,
+        "p_id": 0.9615384615384616,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 8.833709640125264,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 18.049370186220994,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 4.6463849289413785e-05,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 1.1967812642927278,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 4.59182941780039,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.889048549295601,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 1.2567379481055976,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-972",
+    "token_count": 8,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.448256844746612,
+        "p_id": 0.5,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9474445538532289,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 24.642020526073573,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 51.266523756187034,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 93.78016610184405,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.3183828077269282,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.3480463085779795,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.1972245773362196,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 6.00508514911107,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 17.088841252062345,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.1894774476600896e-05,
+        "p_id": 0.5,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 1.862025469470428,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.83483013501111,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 0.871814931192981,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.30747215504038056,
+        "p_id": 0.5,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-967",
+    "token_count": 7,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.46612352347628394,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0136789664791908,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 35.396413250380576,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 62.465005340668505,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 102.25014746121597,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.2273341826760067,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.2323701609611273,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.0794415416798357,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 13.98603972825283,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 20.821668446889507,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.317215714627011e-05,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 5.317730158251379,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 4.127808106125139,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 0.685108425335615,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.12002283958535644,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-965",
+    "token_count": 6,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.48226488935509254,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0393319796183969,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 14.674540714996109,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 42.52271563199832,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 31.66400071508718,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 0.5013010466287232,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 0.5274545892922988,
+        "p_id": 0.9615384615384616,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 1.9459101490553132,
+        "p_id": 0.9615384615384616,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 1.6861169673643035,
+        "p_id": 0.9615384615384616,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 14.174238543999435,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 2.728582362959867e-05,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -3.2595399403637533,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 0.18850312183239049,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 0.14083809208998183,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.14083809208998183,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3366",
+    "token_count": 5,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.5150680950987151,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0938483058214816,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 35.383205047896254,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 74.9675445081132,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 130.254859529575,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 2.3627024982997398,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 2.622728718932607,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 1.791759469228055,
+        "p_id": 1.0,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 16.83176358016435,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 24.9891815027044,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 6.078655214501919e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": 4.804166736272471,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 4.94924752833937,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 2.6048105191126965,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 1.9164716497418586,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3389",
+    "token_count": 2,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4605900763374262,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.02830859241857,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 35.7493218298006,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 94.04342348565899,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 144.0705187306598,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 2.4339642062999807,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 2.4955610904637493,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 1.0986122886681096,
+        "p_id": 1.0,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 16.351414888236995,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 31.347807828552988,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 0.00017196714972790193,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": 7.425381322088761,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 5.291804065984029,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 2.702535711661765,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 1.7838850082062787,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3371",
+    "token_count": 4,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4429549941908665,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9790670635107669,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 38.781229106484076,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis_concat": {
+        "score": 88.43271472745472,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 179.6686282592926,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 3.1733150366362564,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 3.55646345042483,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 1.6094379124341003,
+        "p_id": 1.0,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 19.53656349049244,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 29.47757157581823,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 9.430333349570387e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": 6.315785758497569,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 6.04293227352489,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 3.611244302064436,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 2.767341503971845,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3373",
+    "token_count": 3,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4529958994851524,
+        "p_id": 0.5,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9529151848982631,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 29.02588505422131,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 84.44209434404816,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 153.0983886734654,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 3.005314098969617,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 3.3579363086366274,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 1.3862943611198906,
+        "p_id": 1.0,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 13.369581131722432,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 28.14736478134938,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 6.776059281548788e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": 7.239827772507407,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 5.498446669851918,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 3.4197646404586335,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 2.602049344644981,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2522",
+    "token_count": 7,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.551145032986688,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.1096626569013948,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 25.778217033846325,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 52.12974428427861,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 96.13217982362241,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.6341997753395776,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.712466119624307,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.0794415416798357,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 8.931718627347387,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 17.376581428092877,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 6.121820620821651e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": -1.8782966941253605,
+        "p_id": 0.8076923076923077,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.9187332010332248,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.4669613262237429,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.8427910215380989,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2548",
+    "token_count": 10,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.5834145015494681,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_density": {
+        "score": 1.1695362387184378,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 31.595400694422214,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 57.67303205294233,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 120.92863377977876,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.9616684384899532,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.839353654992888,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.3978952727983707,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 10.47145294954808,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 19.224344017647443,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 6.742167874138423e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": -1.6209588122747327,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 4.696965549373381,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 2.013007197480718,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 1.020005932599452,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2538",
+    "token_count": 6,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.603988565867343,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_density": {
+        "score": 1.2409209190991737,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis": {
+        "score": 54.31764639021255,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis_concat": {
+        "score": 83.99997286305194,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 139.6565121556595,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 2.5800775263971985,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 2.5303767918344433,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 1.9459101490553132,
+        "p_id": 0.9615384615384616,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 28.628320338508054,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 27.999990954350636,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 8.755038097530896e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": 2.0183057929137433,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 5.186040679440209,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 2.8967202570840707,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 1.8206578380324758,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2521",
+    "token_count": 7,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.5532004080587622,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.1242232183696526,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 24.523468575834762,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 52.90253831376652,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 82.52682435662217,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.4116851817535152,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.4110127468373335,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.0794415416798357,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 11.364419359803419,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 17.63417943792217,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 5.767680463783198e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": -1.6065190747028169,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.402206836369788,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.055685412611109,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.7201761606693297,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2989",
+    "token_count": 11,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.3863656569804343,
+        "p_id": 1.0,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.8609640655046291,
+        "p_id": 1.0,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 14.473955019140984,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 41.28666383501603,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 51.752453785903235,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 0.8112134378602929,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 0.8474935248416086,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.4849066497880004,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 1.0199328956898004,
+        "p_id": 1.0,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 13.76222127833867,
+        "p_id": 0.9230769230769231,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 3.8788339859371035e-05,
+        "p_id": 0.4230769230769231,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 3.833046206798546,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 1.829205647292133,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": -0.27865083149032843,
+        "p_id": 0.8076923076923077,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": -0.582114126851435,
+        "p_id": 0.8461538461538461,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2973",
+    "token_count": 17,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4732873770468431,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0055651269356272,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 24.770277544561793,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 71.68576445532801,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 119.2517288214138,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.7435271731464463,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.5885389176678288,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.8903717578961645,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 8.393724710854103,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 23.895254818442677,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 4.3326839858752075e-05,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 1.026137625767177,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 4.649563664217091,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.65646623815486,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.6692747451118676,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2995",
+    "token_count": 12,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.39645057603529843,
+        "p_id": 0.9615384615384616,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.8834369555063424,
+        "p_id": 0.9615384615384616,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 15.065732475770053,
+        "p_id": 0.6923076923076923,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 51.65471708122679,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 87.7138371252037,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.4999479153558235,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.4385799904547345,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.5649493574615367,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 7.598562508450975,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 17.218239027075597,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 4.055711872642213e-05,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 3.956869559180488,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 3.608427472188694,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.2231907221174032,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.4478456491057446,
+        "p_id": 0.5,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2971",
+    "token_count": 12,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.48335388268343815,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0395166189033807,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 28.197896695991435,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 73.19985882822847,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 171.93939218216826,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 2.4023595330985845,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 2.464883873503572,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.5649493574615367,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 5.903777572951665,
+        "p_id": 0.5384615384615384,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 24.39995294274281,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 5.222141087775098e-05,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 2.660367414419728,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 5.8932732887918995,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 2.659447135510182,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 1.751178481943348,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2490",
+    "token_count": 14,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4914081400250628,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0756929358640874,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 40.97363835756684,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis_concat": {
+        "score": 112.17370183642865,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 176.26042513975648,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 3.4532214446273617,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 3.25766441751599,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.70805020110221,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 23.270715131316972,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 37.39123394547621,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 5.907935457124303e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": -0.9040374080256726,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 5.9777453037820445,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 3.9137678772719093,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 2.515678750734766,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2503",
+    "token_count": 14,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4193376186334895,
+        "p_id": 0.7692307692307693,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9323083672118841,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 19.714959088415593,
+        "p_id": 0.5,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 70.47219640429421,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 114.66483765923653,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 1.5094212611543298,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 1.3784786251284342,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.70805020110221,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 13.12154975801311,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 23.49073213476473,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 4.264751083388631e-05,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 0.4684822372693631,
+        "p_id": 0.5,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 4.516446554592393,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 1.2408166194031582,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 0.3552527678361803,
+        "p_id": 0.5,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2500",
+    "token_count": 14,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.41425365015196525,
+        "p_id": 0.8461538461538461,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9254590380569363,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 22.891309210542715,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 99.8428550959674,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 190.22931100509842,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 3.568785880205575,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 3.097428896995622,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.70805020110221,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 38.677074801791036,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 33.28095169865579,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 4.648085849254681e-05,
+        "p_id": 0.2692307692307692,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -0.5418206520658657,
+        "p_id": 0.5769230769230769,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 6.237380572721708,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 4.033159855230802,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 2.3733431958971725,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-2494",
+    "token_count": 15,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.4197701896754903,
+        "p_id": 0.7692307692307693,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 0.9357781900513963,
+        "p_id": 0.7307692307692307,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 22.611071601289208,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 101.26848245964051,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 185.89972945747053,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual_diag": {
+        "score": 3.6235227410260036,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "local_residual": {
+        "score": 3.2280388579332047,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "length_only": {
+        "score": 2.772588722239781,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 42.4057298296505,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 33.75616081988017,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 5.0180226971800245e-05,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": -0.9001451755024945,
+        "p_id": 0.6153846153846154,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 6.158993576862624,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_diag_fusion": {
+        "score": 4.0886595748550105,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "local_transport": {
+        "score": 2.48977079539464,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3779",
+    "token_count": 18,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.5047159885042336,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0832263974890444,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 48.12126651359093,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "mahalanobis_concat": {
+        "score": 145.355743705499,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 304.9342494923234,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_residual_diag": {
+        "score": 6.037057292895148,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_residual": {
+        "score": 5.606771513392819,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "length_only": {
+        "score": 2.9444389791664403,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 45.042798413148574,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 48.45191456849969,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 6.945067195217032e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": 7.958272796765691,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_fusion": {
+        "score": 7.8457720042462435,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_diag_fusion": {
+        "score": 6.0460793000580155,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_transport": {
+        "score": 4.145940607066578,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3760",
+    "token_count": 25,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.507068291971362,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0822672789249246,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 27.59407126981216,
+        "p_id": 0.34615384615384615,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 231.39060799102646,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_residual": {
+        "score": 703.8672130581801,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_residual_diag": {
+        "score": 15.241631779758531,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_residual": {
+        "score": 14.513972772148373,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "length_only": {
+        "score": 3.258096538021482,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "tv_sparse": {
+        "score": 163.02484288132348,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "layer_mahalanobis_mean": {
+        "score": 77.13020266367549,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "pca_residual": {
+        "score": 4.2784961665965185e-05,
+        "p_id": 0.3076923076923077,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 5.246842492161356,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 10.702625341977424,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_diag_fusion": {
+        "score": 9.943775811120362,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_transport": {
+        "score": 7.31332269780586,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3761",
+    "token_count": 18,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.49306847952018873,
+        "p_id": 0.23076923076923078,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0526980774000452,
+        "p_id": 0.19230769230769232,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 25.021768544876757,
+        "p_id": 0.46153846153846156,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 139.36642839609132,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 385.78202362754723,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_residual_diag": {
+        "score": 7.703942743328199,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_residual": {
+        "score": 7.5188998976640775,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "length_only": {
+        "score": 2.9444389791664403,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "tv_sparse": {
+        "score": 70.09770581012296,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "layer_mahalanobis_mean": {
+        "score": 46.455476132030434,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 5.87333006515193e-05,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "relative_mahalanobis": {
+        "score": 5.980863868721418,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 8.648402174197752,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_diag_fusion": {
+        "score": 7.036763157449824,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_transport": {
+        "score": 5.089099170338218,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      }
+    }
+  },
+  {
+    "id": "clinc-test-3764",
+    "token_count": 21,
+    "truncated": false,
+    "methods": {
+      "knn": {
+        "score": 0.5133419819440722,
+        "p_id": 0.11538461538461539,
+        "flag_ood": false
+      },
+      "local_density": {
+        "score": 1.0962219805474527,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "mahalanobis": {
+        "score": 27.33303541318727,
+        "p_id": 0.38461538461538464,
+        "flag_ood": false
+      },
+      "mahalanobis_concat": {
+        "score": 151.8526410624512,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_residual": {
+        "score": 407.84249580468185,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_residual_diag": {
+        "score": 8.820374146305397,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_residual": {
+        "score": 8.61261180859443,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "length_only": {
+        "score": 3.091042453358316,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "tv_sparse": {
+        "score": 84.47323663821395,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "layer_mahalanobis_mean": {
+        "score": 50.617547020817106,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "pca_residual": {
+        "score": 5.034432993946525e-05,
+        "p_id": 0.15384615384615385,
+        "flag_ood": false
+      },
+      "relative_mahalanobis": {
+        "score": 5.934264301816196,
+        "p_id": 0.07692307692307693,
+        "flag_ood": false
+      },
+      "global_fusion": {
+        "score": 8.838263769850357,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "global_diag_fusion": {
+        "score": 7.5991651678622025,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      },
+      "local_transport": {
+        "score": 5.537275751657511,
+        "p_id": 0.038461538461538464,
+        "flag_ood": true
+      }
+    }
+  }
+]

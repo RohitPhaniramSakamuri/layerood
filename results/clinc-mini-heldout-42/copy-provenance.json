@@ -1,0 +1,25 @@
+{
+  "meaning": "Byte-identical copies of completed local pilot outputs; no new experiment",
+  "files": {
+    "run.json": {
+      "original": "artifacts/clinc-mini-heldout-42/run.json",
+      "sha256": "19e83cd6cc2829e25bc6b1c732bc546c33857a0fa4005b53d5c6e05a459e2dbd"
+    },
+    "metrics.json": {
+      "original": "artifacts/clinc-mini-heldout-42/metrics.json",
+      "sha256": "75e955eac4a869df8a55806f4088901520ca86fcb1920b27a996b9836bfc5c44"
+    },
+    "predictions.json": {
+      "original": "artifacts/clinc-mini-heldout-42/predictions.json",
+      "sha256": "b1e32985c82d5dbc24d1e4fcb32d79a8c697d788c2f5dbcec839a55488eccc9e"
+    },
+    "report.md": {
+      "original": "artifacts/clinc-mini-heldout-42/report.md",
+      "sha256": "bf4ce669f9c34be68a5bfbb5c94e6b3e0dd60fe87e30e5cb28b5d2cd63bc25de"
+    },
+    "dataset-manifest.json": {
+      "original": "data/clinc-mini-heldout/manifest.json",
+      "sha256": "d5025689dfef077e1432a8ff196d9c49fdb0350f2416dbdefc48a1d1b614ac34"
+    }
+  }
+}
