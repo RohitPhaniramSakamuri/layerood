@@ -2,6 +2,7 @@
 
 ## 24 October 2026
 
+- Added a cross-machine Codex handoff covering the current evidence, missing evaluation exports, an offline visualization report, package improvements, fixed multi-seed experiments and honest completion criteria. No new experiments were run for the handoff.
 - Prepared a standalone GitHub repository at the user's request, including byte-identical lightweight pilot records, portable setup instructions and standalone agent guidance. Existing local datasets, environments and binary artifacts remain preserved outside Git tracking.
 
 - Created an independent prospect and the installable `layerood` package using uv and a project-local environment.

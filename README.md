@@ -110,6 +110,7 @@ Outputs include vectors, a portable non-pickle detector, per-text scores, `metri
 
 ## Research records
 
+- [Cross-machine Codex handoff and development brief](HANDOFF.md)
 - [Exact hypothesis and method](APPROACH.md)
 - [Closest literature and novelty limits](outputs/literature-review.md), [reading provenance](outputs/literature-review.provenance.md)
 - [References](REFERENCES.md) and [BibTeX](references.bib)
